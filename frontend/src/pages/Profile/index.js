@@ -65,7 +65,7 @@ async  function handleDeleteIncident(id) {
         {
           incidents.map(incident => (
             <li key={incident.id}>
-              <strong>CASO: 1</strong>
+              <strong>CASO:</strong>
               <p>{incident.title}</p>
 
               <strong>DESCRICAO:</strong>
